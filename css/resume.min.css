@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 
-body {
+ body {
     font-family: Muli, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     padding-top: 54px;
     color: #868e96
@@ -17,20 +17,31 @@ body {
     }
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-weight: 500;
+    color: #ee77ae
+}
+
+h2{
+    font-family: 'Sacramento', cursive;
+    font-weight: 500;
+    color: black;
+} 
+
+h3, h4, h5, h6 {
     font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #343a40
+    font-weight: 400;
+    color: black;
 }
 
 h1 {
-    font-size: 6rem;
+    font-size: 5rem;
     line-height: 5.5rem
 }
 
 h2 {
-    font-size: 3.5rem
+    font-size: 3rem
 }
 
 h3 {
@@ -44,7 +55,7 @@ p.lead {
 
 .subheading {
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 400;
     font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     font-size: 1.5rem
 }
@@ -53,7 +64,7 @@ p.lead {
     display: inline-block;
     height: 3.5rem;
     width: 3.5rem;
-    background-color: #495057;
+    background-color: #f897c4;
     color: #fff!important;
     border-radius: 100%;
     text-align: center;
@@ -67,15 +78,15 @@ p.lead {
 }
 
 .social-icons a:hover {
-    background-color: #ee77ae
+    background-color: #e83e8c
 }
 
 .dev-icons {
-    font-size: 3rem
+    font-size: 3rem;
 }
 
 .dev-icons .list-inline-item i:hover {
-    color: #ee77ae
+    color: #ee77ae;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -155,7 +166,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-    background-color: #ee77ae!important
+    background-color: #f897c4!important
 }
 
 .text-primary {
